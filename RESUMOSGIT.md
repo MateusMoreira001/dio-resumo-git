@@ -26,7 +26,7 @@ Criar e Clonar Repositórios:
 - **git init -** inicializa o diretório tranformando em um repositório git;
 - **git clone** _url do repositório github_ **-** Clona um repositório, adicione um _Nome após url e o repositório ira ficar com esse nome;
 - **git remote -v -** Retorna repositórios que estamos vinculados;
-- **git remote add ** _Nome do repositório remoto  URl_ **-** conecta um repositório local a um remoto;
+- **git remote add** _Nome do repositório remoto URl_ **-** conecta um repositório local a um remoto;
 
 
 ```
@@ -38,6 +38,7 @@ Comandos Úteis e Atalhos:
 - **cd ..** - Volta uma página;
 - **cd .git** - Muda para (GIT_DIR!);
 - **ls** - Lista o que tem no diretório;
+- **clear** - Limpa a prompt;
 - **cat config** - Exibe os conteúdos resposaveis pela configuração do diretório;
 - **git status** - Retorna status da ârea de preparação e status dos arquivos;
 ```
@@ -45,6 +46,13 @@ Arquivos:
 ```
 - **touch** _NOME.md_ **-** Retorna status da ârea de preparação e status dos arquivos;
 - **git status** - Retorna status da ârea de preparação e status dos arquivos;
+- **git add** _Nome do Arquivo_ **-** Adciona arquivo a ârea de preparação;
+- **git add . -** Adcionar todos os arquivos a ârea de preparação;
+- **git commit -m"**_Mensagem_**" -** Salva e insere no Commit uma mensagem;
+- **git log -** Retorna o Commit que fizemos;
+- **echo** _Diretório/_ **> .gitignore -** Coloca o diretório que não tem nenhum arquivo em um arquivo que o gir ignora ao salvar;
+- **echo > gitignore -** Tira o diretório do gitignore;
+- **touch** _Nome da Diretório_ **/.gitkeep -** para o git reconhecer um diretório vazio;
 ```
 Branchs:
 ```
